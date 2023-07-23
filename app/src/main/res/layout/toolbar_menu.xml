@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--Id 부분 에러 확인 -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
