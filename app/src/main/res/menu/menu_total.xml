@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu1"
+        android:title="menu1" />
+    <item
+        android:id="@+id/menu2"
+        android:title="menu2" />
+    <item
+        android:id="@+id/menu3"
+        android:title="menu3" />
+    <item
+        android:id="@+id/menu22"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="menu2"
+        app:showAsAction="always" />
+    <!--
+    showAsAction : always, never, ifRoom - 오버플로우 메뉴를 밖으로 뺄껀지 여부의 옵션
+    -->
+    <item
+        android:id="@+id/menu33"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="menu2"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+</menu>
