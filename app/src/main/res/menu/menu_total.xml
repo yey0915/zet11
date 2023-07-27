@@ -14,7 +14,7 @@
     <item
         android:id="@+id/menu22"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="menu2"
+        android:title="menu22"
         app:showAsAction="always" />
     <!--
     showAsAction : always, never, ifRoom - 오버플로우 메뉴를 밖으로 뺄껀지 여부의 옵션
