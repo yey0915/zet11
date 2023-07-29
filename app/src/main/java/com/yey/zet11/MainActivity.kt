@@ -1,12 +1,23 @@
 package com.yey.zet11
 
+import android.content.Context
+import android.graphics.BitmapFactory
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Rect
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
-import com.yey.zet11.databinding.ActivityJetBinding
+import androidx.core.content.res.ResourcesCompat
+import androidx.core.view.ViewCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.yey.zet11.adpater.MyAdapter2
 import com.yey.zet11.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +30,8 @@ class MainActivity : AppCompatActivity() {
 
         //툴바 붙이기
         setSupportActionBar(binding.toolbar)
+
+
     }
 
     //메뉴 액션바(테마 사용)- 툴바로 대체할 예정
@@ -58,4 +71,6 @@ class MainActivity : AppCompatActivity() {
         }
         else -> super.onOptionsItemSelected(item)
     }
+
+
 }
